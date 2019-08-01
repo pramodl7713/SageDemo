@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35674" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35674" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:31Z">
+      <class name="com.sageit.qa.testscripts.Module1">
+        <test-method status="PASS" signature="logAndReportSetUp()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="logAndReportSetUp" is-config="true" duration-ms="93" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logAndReportSetUp -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="browserSetup" is-config="true" duration-ms="13056" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="methodName" is-config="true" duration-ms="4" started-at="2019-07-25T09:47:08Z" finished-at="2019-07-25T09:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sageit.qa.testscripts.Module1.TrialAssureAnonymization_TC001() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="TrialAssureAnonymization_TC001()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="TrialAssureAnonymization_TC001" duration-ms="19771" started-at="2019-07-25T09:47:08Z" finished-at="2019-07-25T09:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrialAssureAnonymization_TC001 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="flush" is-config="true" duration-ms="231" started-at="2019-07-25T09:47:28Z" finished-at="2019-07-25T09:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="closeBrowser" is-config="true" duration-ms="2175" started-at="2019-07-25T09:47:28Z" finished-at="2019-07-25T09:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sageit.qa.testscripts.Module1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
