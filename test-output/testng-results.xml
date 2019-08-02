@@ -1,40 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35674" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:31Z">
+  <suite name="Default suite" duration-ms="10846" started-at="2019-08-02T07:48:23Z" finished-at="2019-08-02T07:48:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35674" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:31Z">
+    <test name="Default test" duration-ms="10846" started-at="2019-08-02T07:48:23Z" finished-at="2019-08-02T07:48:33Z">
       <class name="com.sageit.qa.testscripts.Module1">
-        <test-method status="PASS" signature="logAndReportSetUp()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="logAndReportSetUp" is-config="true" duration-ms="93" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:46:55Z">
+        <test-method status="PASS" signature="logAndReportSetUp()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="logAndReportSetUp" is-config="true" duration-ms="101" started-at="2019-08-02T07:48:23Z" finished-at="2019-08-02T07:48:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logAndReportSetUp -->
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="browserSetup" is-config="true" duration-ms="13056" started-at="2019-07-25T09:46:55Z" finished-at="2019-07-25T09:47:08Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="browserSetup" is-config="true" duration-ms="9728" started-at="2019-08-02T07:48:23Z" finished-at="2019-08-02T07:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="methodName" is-config="true" duration-ms="4" started-at="2019-07-25T09:47:08Z" finished-at="2019-07-25T09:47:08Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="methodName" is-config="true" duration-ms="4" started-at="2019-08-02T07:48:32Z" finished-at="2019-08-02T07:48:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sageit.qa.testscripts.Module1.TrialAssureAnonymization_TC001() throws java.lang.Exception]]>
+                <![CDATA[public void com.sageit.qa.testscripts.Module1.VerifyTitle_TC001() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="TrialAssureAnonymization_TC001()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="TrialAssureAnonymization_TC001" duration-ms="19771" started-at="2019-07-25T09:47:08Z" finished-at="2019-07-25T09:47:28Z">
+        <test-method status="PASS" signature="VerifyTitle_TC001()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="VerifyTitle_TC001" duration-ms="17" started-at="2019-08-02T07:48:32Z" finished-at="2019-08-02T07:48:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TrialAssureAnonymization_TC001 -->
-        <test-method status="PASS" signature="flush()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="flush" is-config="true" duration-ms="231" started-at="2019-07-25T09:47:28Z" finished-at="2019-07-25T09:47:28Z">
+        </test-method> <!-- VerifyTitle_TC001 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="flush" is-config="true" duration-ms="259" started-at="2019-08-02T07:48:33Z" finished-at="2019-08-02T07:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sageit.qa.testscripts.Module1@6069db50]" name="closeBrowser" is-config="true" duration-ms="2175" started-at="2019-07-25T09:47:28Z" finished-at="2019-07-25T09:47:31Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="methodName" is-config="true" duration-ms="1" started-at="2019-08-02T07:48:33Z" finished-at="2019-08-02T07:48:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sageit.qa.testscripts.Module1.VerifyURL_TC002() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="VerifyURL_TC002()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="VerifyURL_TC002" duration-ms="9" started-at="2019-08-02T07:48:33Z" finished-at="2019-08-02T07:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyURL_TC002 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="flush" is-config="true" duration-ms="53" started-at="2019-08-02T07:48:33Z" finished-at="2019-08-02T07:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sageit.qa.testscripts.Module1@59662a0b]" name="closeBrowser" is-config="true" duration-ms="81" started-at="2019-08-02T07:48:33Z" finished-at="2019-08-02T07:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

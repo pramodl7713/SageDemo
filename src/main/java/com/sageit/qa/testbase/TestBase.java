@@ -49,7 +49,7 @@ public class TestBase {
 	public static Xls_Reader reader;
 	public static Xls_Reader writer;
 	
-	public static String xlfile = "C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\excel-report\\tassureReport.xlsx";
+	public static String xlfile = "C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\excel-report\\FitnessGramReport.xlsx";
 
 
 	public TestBase() {
@@ -72,7 +72,7 @@ public class TestBase {
 		
 		//initializing excel file
 		 reader = new Xls_Reader("C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\testdata\\tassuredata.xlsx");
-		 writer = new Xls_Reader("C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\excel-report\\tassureReport.xlsx");
+		 writer = new Xls_Reader("C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\excel-report\\FitnessGramReport.xlsx");
 		 
 
 	}

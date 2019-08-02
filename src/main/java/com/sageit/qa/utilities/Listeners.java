@@ -14,7 +14,6 @@ public class Listeners extends TestBase implements ITestListener {
 	public static String[] tcnamenum;
 	public static String testname = "";
 	public static String testid = "";
-	public static String xlfile = "C:\\Users\\Srinivas Krishnakar\\eclipse-workspace\\DemoProject\\excel-report\\tassureReport.xlsx";
 	public static String sheetname = "Sheet1";
 	public static int rcount;
 	public static int status_code;

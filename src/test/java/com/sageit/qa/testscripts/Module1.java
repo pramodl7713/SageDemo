@@ -18,21 +18,54 @@ public class Module1 extends TestBase {
 	public Logger logger = Logger.getLogger(Module1.class);
 	
 	
-	
-		
-	
-	  @Test public void TrialAssureAnonymization_TC001() throws Exception {
-	  
-	  reader.initializeExcel("trailassure", 2);
-	  TestBase.childTest=TestBase.parentTest.createNode("Trial Assure Anonymization Functionality");
-	  UtilityFunctions.login();
-	  Anonymization an = new Anonymization(driver,reader);
-	  an.checkAnonymization();
-      UtilityFunctions.logout();
-	  
+	  @Test public void VerifyTitle_TC001() throws Exception {
+	 
+	  String exp ="FitnessGram® Login | The Cooper Institute";	  
+	  TestBase.childTest=TestBase.parentTest.createNode("Verifying title of web page");
+	  String act = driver.getTitle();
+	  if(act.equals(exp))
+	  {
+		  TestBase.childTest.pass("Title is Passed : "+act);
+	  }
+	  else {
+		  TestBase.childTest.fail("Title is not Matching");
+		  TestBase.childTest.fail("Expected Title is : "+exp);
+		  TestBase.childTest.fail("Actual Title is : "+act);
+	  }
 	  }
 	 
   
+	  @Test public void VerifyURL_TC002() throws Exception {
+		  try {
+		  String expval="https://myhealthyzone.fitnessgram.net/";
+		  TestBase.childTest=TestBase.parentTest.createNode("Verifying URL of web page");
+		  String actval = driver.getCurrentUrl();
+		  if(actval.equals(expval))
+		  {
+			  TestBase.childTest.pass("URL test is Passed : "+actval); 
+		  }
+		  }catch(Exception e)
+		  {
+			e.printStackTrace();
+			  TestBase.childTest.fail("URL is not Matching");
+		  }
+	  }
+	  
+	  @Test 
+	  public void DataTest_003()
+	  {}
+	  
+	/*
+	 * @Test public void LoginTest_TC001() throws Exception {
+	 * 
+	 * reader.initializeExcel("trailassure", 2);
+	 * TestBase.childTest=TestBase.parentTest.
+	 * createNode("Trial Assure Anonymization Functionality");
+	 * System.out.println("Checks Login functionality...");
+	 * 
+	 * }
+	 */
+	  
 		
 	
 	

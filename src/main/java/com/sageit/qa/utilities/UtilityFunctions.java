@@ -53,7 +53,7 @@ public class UtilityFunctions extends TestBase {
 	}
 	
 	
-	
+	// This method is used to upload files in windows
 	public static void fileUploadWithAWT(String fpath) throws AWTException
 	{
 		  try {
