@@ -31,6 +31,7 @@ public class Module1 extends TestBase {
 		  TestBase.childTest.fail("Title is not Matching");
 		  TestBase.childTest.fail("Expected Title is : "+exp);
 		  TestBase.childTest.fail("Actual Title is : "+act);
+		  //This is newly added line
 	  }
 	  }
 	 
